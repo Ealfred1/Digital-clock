@@ -79,3 +79,13 @@ body {
 .box:nth-child(5) {
 	background: rgba(252, 4, 141, 0.3);
 }
+
+@media screen (max-width: 600px) {
+	#clock {
+		width: 100%;
+	}
+	
+	.box {
+		display: hidden;
+	}
+}
